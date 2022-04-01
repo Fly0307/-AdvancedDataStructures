@@ -1,0 +1,4 @@
+"D:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja E:\DSACPP\Try\-AdvancedDataStructures\AVLTree
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/DSACPP/Try/-AdvancedDataStructures/AVLTree/cmake-build-debug
