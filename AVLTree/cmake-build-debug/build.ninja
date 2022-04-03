@@ -55,6 +55,12 @@ build CMakeFiles/main.cpp.dir/AVLTree.cpp.obj: CXX_COMPILER__main.2ecpp_Debug E$
   OBJECT_DIR = CMakeFiles\main.cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\main.cpp.dir
 
+build CMakeFiles/main.cpp.dir/BinNode.cpp.obj: CXX_COMPILER__main.2ecpp_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/BinNode.cpp || cmake_object_order_depends_target_main.cpp
+  DEP_FILE = CMakeFiles\main.cpp.dir\BinNode.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main.cpp
@@ -63,7 +69,7 @@ build CMakeFiles/main.cpp.dir/AVLTree.cpp.obj: CXX_COMPILER__main.2ecpp_Debug E$
 #############################################
 # Link the executable main.cpp.exe
 
-build main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/AVLTree.cpp.obj
+build main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/AVLTree.cpp.obj CMakeFiles/main.cpp.dir/BinNode.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.cpp.dir

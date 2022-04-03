@@ -12,9 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="813a9e54-3fc5-490c-8dd2-a78277541e94" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/AVLTree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AVLTree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinNode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AVLTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AVLTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AVLTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/AVLTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-731c725f8133559d5ef6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-04-01T07-41-36-0443.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-main.cpp-Debug-3d1590c345d6210c05e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +79,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648798813916</updated>
-      <workItem from="1648798815750" duration="97000" />
+      <workItem from="1648798815750" duration="1092000" />
+      <workItem from="1648819436685" duration="5000" />
+      <workItem from="1648908972063" duration="61000" />
+      <workItem from="1648958664937" duration="4120000" />
     </task>
     <servers />
   </component>
