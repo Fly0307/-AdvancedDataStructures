@@ -41,43 +41,61 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main.cpp
+# Object build statements for EXECUTABLE target AVLTree
 
 
 #############################################
-# Order-only phony target for main.cpp
+# Order-only phony target for AVLTree
 
-build cmake_object_order_depends_target_main.cpp: phony || CMakeFiles/main.cpp.dir
+build cmake_object_order_depends_target_AVLTree: phony || CMakeFiles/AVLTree.dir
 
-build CMakeFiles/main.cpp.dir/AVLTree.cpp.obj: CXX_COMPILER__main.2ecpp_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/AVLTree.cpp || cmake_object_order_depends_target_main.cpp
-  DEP_FILE = CMakeFiles\main.cpp.dir\AVLTree.cpp.obj.d
+build CMakeFiles/AVLTree.dir/main.cpp.obj: CXX_COMPILER__AVLTree_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/main.cpp || cmake_object_order_depends_target_AVLTree
+  DEP_FILE = CMakeFiles\AVLTree.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\main.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.cpp.dir
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir
 
-build CMakeFiles/main.cpp.dir/BinNode.cpp.obj: CXX_COMPILER__main.2ecpp_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/BinNode.cpp || cmake_object_order_depends_target_main.cpp
-  DEP_FILE = CMakeFiles\main.cpp.dir\BinNode.cpp.obj.d
+build CMakeFiles/AVLTree.dir/BST.cpp.obj: CXX_COMPILER__AVLTree_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/BST.cpp || cmake_object_order_depends_target_AVLTree
+  DEP_FILE = CMakeFiles\AVLTree.dir\BST.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\main.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.cpp.dir
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir
+
+build CMakeFiles/AVLTree.dir/AVLTree.cpp.obj: CXX_COMPILER__AVLTree_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/AVLTree.cpp || cmake_object_order_depends_target_AVLTree
+  DEP_FILE = CMakeFiles\AVLTree.dir\AVLTree.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir
+
+build CMakeFiles/AVLTree.dir/BinNode.cpp.obj: CXX_COMPILER__AVLTree_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/BinNode.cpp || cmake_object_order_depends_target_AVLTree
+  DEP_FILE = CMakeFiles\AVLTree.dir\BinNode.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir
+
+build CMakeFiles/AVLTree.dir/BinTree.cpp.obj: CXX_COMPILER__AVLTree_Debug E$:/DSACPP/Try/-AdvancedDataStructures/AVLTree/BinTree.cpp || cmake_object_order_depends_target_AVLTree
+  DEP_FILE = CMakeFiles\AVLTree.dir\BinTree.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main.cpp
+# Link build statements for EXECUTABLE target AVLTree
 
 
 #############################################
-# Link the executable main.cpp.exe
+# Link the executable AVLTree.exe
 
-build main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/AVLTree.cpp.obj CMakeFiles/main.cpp.dir/BinNode.cpp.obj
+build AVLTree.exe: CXX_EXECUTABLE_LINKER__AVLTree_Debug CMakeFiles/AVLTree.dir/main.cpp.obj CMakeFiles/AVLTree.dir/BST.cpp.obj CMakeFiles/AVLTree.dir/AVLTree.cpp.obj CMakeFiles/AVLTree.dir/BinNode.cpp.obj CMakeFiles/AVLTree.dir/BinTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.cpp.dir
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = main.cpp.exe
-  TARGET_IMPLIB = libmain.cpp.dll.a
-  TARGET_PDB = main.cpp.exe.dbg
+  TARGET_FILE = AVLTree.exe
+  TARGET_IMPLIB = libAVLTree.dll.a
+  TARGET_PDB = AVLTree.exe.dbg
 
 
 #############################################
@@ -105,7 +123,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build main.cpp: phony main.cpp.exe
+build AVLTree: phony AVLTree.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +133,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: E:/DSACPP/Try/-AdvancedDataStructures/AVLTree/cmake-build-debug
 
-build all: phony main.cpp.exe
+build all: phony AVLTree.exe
 
 # =============================================================================
 # Built-in targets
